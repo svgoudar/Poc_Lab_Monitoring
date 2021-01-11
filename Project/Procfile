@@ -1,1 +1,1 @@
-web: gunicorn Project.restfulapi.wsgi.application
+web: gunicorn restfulapi.wsgi.application
