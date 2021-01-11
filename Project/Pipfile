@@ -9,6 +9,7 @@ djangorestframework = "*"
 psycopg2-binary = "*"
 psycopg2 = "*"
 gunicorn = "*"
+django-heroku = "*"
 
 [dev-packages]
 
