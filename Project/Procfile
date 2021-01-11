@@ -1,1 +1,1 @@
-web: gunicorn restfulapi.wsgi.application
+web: gunicorn employeeapi:app
