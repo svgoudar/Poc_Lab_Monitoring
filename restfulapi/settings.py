@@ -127,8 +127,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-<<<<<<< HEAD:Project/Project/restfulapi/settings.py
+
 django_heroku.settings(locals())
-=======
-django_heroku.settings(locals())
->>>>>>> 83795d17894edf235827b275d5b635bab87b973d:restfulapi/settings.py
+
