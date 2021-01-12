@@ -39,10 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'employeeapi',
-    'rest_framework'
+    'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -127,8 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-<<<<<<< HEAD:Project/Project/restfulapi/settings.py
-django_heroku.settings(locals())
-=======
-django_heroku.settings(locals())
->>>>>>> 83795d17894edf235827b275d5b635bab87b973d:restfulapi/settings.py
+
+# django_heroku.settings(locals())
+
+# DATABASES['default'] =  dj_database_url.config()
