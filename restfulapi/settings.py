@@ -130,6 +130,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
-# DATABASES['default'] =  dj_database_url.config()
+DATABASES['default'] =  dj_database_url.config()
+

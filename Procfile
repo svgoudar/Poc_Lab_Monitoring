@@ -1,1 +1,1 @@
-web: gunicorn employeeapi:app
+web: gunicorn restfulapi.wsgi --log-file -
