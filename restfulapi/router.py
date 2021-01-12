@@ -1,4 +1,4 @@
-from Project.Project.employeeapi.viewsets import EmployeeViewset
+from employeeapi.viewsets import EmployeeViewset
 from rest_framework import routers
 
 router = routers.DefaultRouter()
