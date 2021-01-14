@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Yellowtail&display=swap');
+.Login {
+  margin: auto;
+  width: 20%;
+  padding-top: 70px;
+}
+.written{
+  color:grey;
+}
+body{
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+  #headin{
+  font-size: 55px;
+  font-family: 'Shadows Into Light', cursive;
+  }
+  #tell{
+    color:beige;
+  }
+  #btn1{
+    background-color: mediumblue;
+  }
+  #btn{
+    width: 100px;
+    height: 40px;
+  }
+
+  #para{
+    color:lightslategray;
+  }
+#link{
+  color:rgb(red, green, blue);
+}
